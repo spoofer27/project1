@@ -1,0 +1,79 @@
+body{
+    text-transform: capitalize;
+    background: #059;
+    color: #eee;
+    box-sizing:border-box;
+}
+div{
+    background: #088;
+    float: left;
+    width: 44%;
+    margin: 1%;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+section{
+    clear: both;
+    overflow: hidden;
+    display: 
+}
+.sectiontoggle{
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:1px solid #eee;
+    color: #eee;
+    background: #07a;
+    border-radius: 5px;
+}
+input{
+    width: 98%;
+    margin:1%;
+    border-radius: 5px;
+    padding: 5px 0
+}
+button{
+    width: 98%;
+    margin:1%; 
+    border-radius: 5px;
+}
+
+.jbuttons button{
+    width: 17%;
+    
+}
+
+.switch{
+    display: flex;
+    justify-content: space-around;
+}
+.switch button,
+.events span,
+.events select,
+.events button,
+.arrays select,
+.arrays button
+{
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    border: 2px solid #055;
+    border-radius: 10px
+}
+
+
+.arrays .headings{
+    display: inline-block;
+}
+
+.arrays label,
+.arrays input[type = "checkbox"]{
+    width: auto;
+}
+.result{
+    color: #ff9814;
+    font-weight: bold
+}
